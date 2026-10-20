@@ -1,0 +1,19 @@
+GAP module and evaluation release
+Copyright (c) 2026 Fenglu Zhang, Yang Yang, and Jianpu Liu.
+
+This source release is distributed under Creative Commons
+Attribution-NonCommercial 4.0 International. See LICENSE.
+
+The temporal backbone in gap/vendor/videopose3d/model.py is copied without
+modification from Facebook Research VideoPose3D:
+https://github.com/facebookresearch/VideoPose3D
+Commit: 1afb1ca0f1237776518469876342fc8669d3f6a9
+Source file: common/model.py
+Copyright (c) 2018-present, Facebook, Inc.
+License: Creative Commons Attribution-NonCommercial 4.0 International.
+The original copyright header and license are retained.
+
+The GAP wrapper configures this backbone for paired 22-joint pose histories
+and three-dimensional radar measurement references, with a zero-initialized
+66-coordinate output layer. The data adapter and evaluation entry point are
+standalone adaptations of the experiment implementation.

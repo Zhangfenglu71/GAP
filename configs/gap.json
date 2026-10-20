@@ -1,0 +1,13 @@
+{
+  "num_joints": 22,
+  "history_length": 9,
+  "channels": 1024,
+  "dropout": 0.25,
+  "filter_widths": [3, 3],
+  "causal": true,
+  "pelvis_index": 0,
+  "coordinate_units": "m",
+  "evaluation_batch_size": 64,
+  "coordinate_frame": "radar",
+  "z_shift_m": -1.5
+}

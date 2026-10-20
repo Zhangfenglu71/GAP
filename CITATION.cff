@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the GAP manuscript and VideoPose3D."
+type: software
+title: "GAP: Grounding Absolute 3D Human Pose Estimation in Millimeter-Wave Radar Measurements"
+version: 1.0.0
+authors:
+  - family-names: Zhang
+    given-names: Fenglu
+  - family-names: Yang
+    given-names: Yang
+  - family-names: Liu
+    given-names: Jianpu
+license: CC-BY-NC-4.0
